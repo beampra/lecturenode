@@ -1,0 +1,10 @@
+const {sayHello,sayHi} = require('./iotwow')
+const {sumNumber} = require('./iotwoo')
+const iotwee = require('./iotwee')
+
+console.log(sayHello("lebron"))
+console.log(sayHi("luka"))
+console.log(sumNumber(10,20))
+console.log("----------------")
+console.log(iotwee.data3)
+console.log(iotwee.sayHey("lebron"))

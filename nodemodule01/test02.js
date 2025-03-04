@@ -1,0 +1,10 @@
+const iotwoo = require('./iotwoo')
+const iotwow = require('./iotwow')
+
+console.log(iotwow.data1)
+console.log(iotwow.sayHello("lebron"))
+console.log(iotwow.sayHi("luka"))
+console.log('------------------')
+console.log(iotwoo.data2)
+console.log(iotwoo.sumNumber(10,20))
+iotwoo.saygoodbye("lebron","jame")
