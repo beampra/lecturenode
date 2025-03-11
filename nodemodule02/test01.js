@@ -1,0 +1,6 @@
+//การใช้งานโมดูลแบบ commonjs (แบบที่ 1)
+const myModuleA = require("./my-module-a.js");
+
+console.log(myModuleA.dataA);
+myModuleA.sayHi();
+myModuleA.sawadee("lebron");
